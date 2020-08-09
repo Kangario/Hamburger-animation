@@ -1,0 +1,63 @@
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+ .all{
+     position: relative;
+     margin-top: 5%;
+     margin-left: 5%;
+ }
+ .all li{background: black;
+     width: 5%;
+     height: 1vh;
+     margin-top: 1%;
+ }
+#l{
+    transition: 1s;
+}
+#l2{
+    transition: 1s;
+}
+#l3{
+    transition: 1s;
+}
+
+
+
+ #ll{
+     transition: 1s;
+    transform: rotate(135deg);
+    background: red;
+ }
+ #ll2{
+     transition: 1s;
+     background: none;
+ }
+ #ll3{margin-top:-2% ;
+     transition: 1s;
+    background: red;
+transform: rotate(-135deg);
+ }
+ #fon{ margin-top: 4%;
+     transition: 1s;
+     width: 100%;
+     height: 1vh;
+     background: rgba(107, 6, 6, 0.527);
+     margin-left: -100%;
+ }
+ #fon1{transition: 1s;
+    margin-top: 5%;
+    width: 100%;
+     height: 100vh;
+     background: rgba(107, 6, 6, 0.527); 
+ }
